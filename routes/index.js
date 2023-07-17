@@ -6,4 +6,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+/* post input */
+router.post('/',function(req,res,next){
+  /*~~~~~*/
+  
+})
+
 module.exports = router;
